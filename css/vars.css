@@ -1,0 +1,14 @@
+:root {
+    --status-bg: #ffffff;
+    --status-fg: #25283D;
+
+    --main-bg: #ffffff;
+    --main-fg: #25283D;
+
+    --divide: #d0d0d0;
+}
+
+@font-face {
+    font-family: Hasklig;
+    src: url(../assets/fonts/hasklig.otf);
+}
