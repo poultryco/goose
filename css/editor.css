@@ -4,8 +4,26 @@
 }
 
 .cm-editor {
-    height: calc(100vh - 26px);
+    height: calc(100vh - 20px);
     padding: var(--editor-padding);
+}
+
+.cm-scroller::-webkit-scrollbar {
+    background: transparent !important;
+}
+
+.cm-scroller::-webkit-scrollbar-thumb {
+    background: #b4b4b4 !important;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.cm-scroller::-webkit-scrollbar-thumb:hover {
+    background: #6A6A6A !important;
+}
+
+.cm-scroller::-webkit-scrollbar {
+    width: 12px;
 }
 
 .cm-focused {
