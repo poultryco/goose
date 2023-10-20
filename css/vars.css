@@ -9,10 +9,10 @@
 
     --editor-fontsize: 20px;
     --editor-padding: 20px;
-    --editor-font: "Fira";
+    --editor-font: "Jetbrains Mono";
 }
 
 @font-face {
-    font-family: Fira;
-    src: url(../assets/fonts/fira.ttf);
+    font-family: Jetbrains Mono;
+    src: url(../assets/fonts/jbm.ttf);
 }
