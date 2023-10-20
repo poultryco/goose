@@ -1,0 +1,13 @@
+.cm-content {
+    font-family: var(--editor-font);
+    font-size: var(--editor-fontsize);
+}
+
+.cm-editor {
+    height: calc(100vh - 26px);
+    padding: var(--editor-padding);
+}
+
+.cm-focused {
+    outline: none !important;
+}

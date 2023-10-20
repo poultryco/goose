@@ -4,15 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/vars.css">
+  <link rel="stylesheet" href="css/status.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/editor.css">
   <title>goose</title>
 </head>
 <body>
   <div id="container">
     <div id="editor">
     </div>
-    <div id="status"><span>∞ words</span></div>
+    <div id="status">
+      <span id="charcount">∞ words</span>
+      <span id="fsize" onclick="prompt('hoi')">15px</span>
+    </div>
   </div>
   <script src="js/main.js" type="module"></script>
+  <script src="js/status.js"></script>
 </body>
 </html>

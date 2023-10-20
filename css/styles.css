@@ -1,6 +1,7 @@
 body, html {
   padding: 0;
   margin: 0;
+  font-family: Hasklig;
 }
 
 #editor {
@@ -14,21 +15,19 @@ body, html {
   outline: none;
 }
 
-.cm-editor {
-  height: 100vh;
-}
-
 #status {
   width: 100vw;
   height: 25px;
   background-color: var(--status-bg);
   color: var(--status-fg);
-  font-size: 17px;
+  font-size: 15px;
   padding: 0;
   margin: 0;
-  border-top: 2px solid var(--divide);
+  border-top: 1px solid var(--divide);
 }
 
 #status span {
-  padding: 5.2px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
 }
